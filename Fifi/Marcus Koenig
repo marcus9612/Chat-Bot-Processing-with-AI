@@ -1,0 +1,2186 @@
+{
+  "intents": [
+    {
+      "intent": "concept",
+      "examples": [
+        {
+          "text": "C'est quoi Expose ?"
+        },
+        {
+          "text": "Comment fonctionne Expose ?"
+        },
+        {
+          "text": "Comment fonctionne votre site ?"
+        },
+        {
+          "text": "Comment marche Expose ?"
+        },
+        {
+          "text": "Peut-on acheter les œuvres présentées sur le site ?"
+        },
+        {
+          "text": "Quel-est le concept d'Expose ?"
+        },
+        {
+          "text": "Qu'est-ce que vous fabriquez ?"
+        },
+        {
+          "text": "Qu'est-ce que vous vendez ?"
+        },
+        {
+          "text": "Vous fabriquez quoi ?"
+        },
+        {
+          "text": "Vous faites quoi ?"
+        },
+        {
+          "text": "Vous vendez quoi ?"
+        }
+      ],
+      "description": "This purpose of this intent is to explain the concpept of Expose "
+    },
+    {
+      "intent": "eCommerce_Balance_Inquiry",
+      "examples": [
+        {
+          "text": "À quoi ressemble mon solde?"
+        },
+        {
+          "text": "Combien dois-je pour mes factures actuelles?"
+        },
+        {
+          "text": "Combien est-ce que je dois actuellement sur ma facture?"
+        },
+        {
+          "text": "De combien sont les factures de services ce mois-ci?"
+        },
+        {
+          "text": "Est-ce que je dois encore de l'argent sur mon compte?"
+        },
+        {
+          "text": "Faites-moi savoir le montant que j'ai sur mon compte."
+        },
+        {
+          "text": "J'ai besoin d'aide à vérifier mon solde."
+        },
+        {
+          "text": "Je souhaite afficher le rapport du solde de mon compte dans le système de facturation, mais je ne sais pas où cliquer."
+        },
+        {
+          "text": "Je souhaite obtenir des renseignements concernant le solde de ma carte."
+        },
+        {
+          "text": "Je suis incapable d'accéder à ma facture en ligne. Pouvez-vous me donner le montant dû sur mon compte?"
+        },
+        {
+          "text": "Je veux connaître le solde du compte et vous poser des questions sur le solde."
+        },
+        {
+          "text": "Je voudrais afficher le solde figurant sur le dernier rapport de facturation."
+        },
+        {
+          "text": "Je voudrais consulter en temps réel les données de facturation."
+        },
+        {
+          "text": "Le solde de mon compte a-t-il considérablement augmenté depuis le mois dernier?"
+        },
+        {
+          "text": "Où puis-je trouver le formulaire de demande de vérification du relevé ?"
+        },
+        {
+          "text": "Pouvez-vous me dire de combien est ma facture? J'avais appelé en Inde et je sais que c'est coûteux."
+        },
+        {
+          "text": "Pouvez-vous me dire quel est le solde de mon compte pour ce mois-ci? Merci."
+        },
+        {
+          "text": "Pouvez-vous me dire quelle est le solde actuel de mon compte?"
+        },
+        {
+          "text": "Puis-je voir en direct de le solde actuel de mon compte ?"
+        },
+        {
+          "text": "Quel est le montant estimé des factures ?"
+        }
+      ],
+      "description": "Renseignez-vous sur un solde de compte"
+    },
+    {
+      "intent": "eCommerce_Cancel_Product_Order",
+      "examples": [
+        {
+          "text": "Annulez ma dernière commande, s'il vous plaît."
+        },
+        {
+          "text": "Bonjour, j'ai récemment placé une commande sur votre site en ligne. Je tiens à annuler la commande, mais je n'arrive pas à le faire en ligne. Pouvez-vous annuler la commande pour moi?"
+        },
+        {
+          "text": "Bonjour, je veux annuler ma commande d'un nouvel appareil, j'ai fait une erreur en commandant."
+        },
+        {
+          "text": "Bonjour, pourriez-vous annuler ma dernière commande,  merci"
+        },
+        {
+          "text": "Bonjour, pouvez-vous m'aider à annuler la commande que je viens de passer il y a quelques minutes ?"
+        },
+        {
+          "text": "Comment est-ce que je peux annuler ma commande?"
+        },
+        {
+          "text": "J'ai commandé un nouvel appareil hier, mais souhaite annuler cette commande maintenant."
+        },
+        {
+          "text": "J'ai fait une erreur et souhaite annuler une commande que j'ai passée, s'il vous plaît."
+        },
+        {
+          "text": "J'aimerais annuler une commande de produit."
+        },
+        {
+          "text": "J'ai passé une commande, mais je dois l'annuler."
+        },
+        {
+          "text": "Je dois annuler la commande la plus récente. Commentle faire?"
+        },
+        {
+          "text": "Je dois annuler la commande que j'ai faite précédemment."
+        },
+        {
+          "text": "Je peux annuler mon achat par telephone ou en ligne?"
+        },
+        {
+          "text": "Je souhaiterais annuler la commande que j'ai placée hier, s'il vous plaît."
+        },
+        {
+          "text": "Je souhaiterais annuler ma dernière commande."
+        },
+        {
+          "text": "Je souhaite supprimer ma commande."
+        },
+        {
+          "text": "Je veux demander l'annulation d'une commande."
+        },
+        {
+          "text": "Je viens de commander des produits sur votre site, mais je veux annuler la commande. C'est possible?"
+        },
+        {
+          "text": "Pouvez-vous m'aider à annuler ma dernière commande ?"
+        },
+        {
+          "text": "Que faire pour annuler une commande?"
+        }
+      ],
+      "description": "Annuler une commande"
+    },
+    {
+      "intent": "eCommerce_Create_Product_Order",
+      "examples": [
+        {
+          "text": "Bonjour j'aimerais commander une carte SIM s'il vous plaît."
+        },
+        {
+          "text": "Bonjour, je veux commander le nouveau téléphone qui est sorti hier."
+        },
+        {
+          "text": "Comment puis-je acheter un nouveau téléphone en ligne?"
+        },
+        {
+          "text": "Comment puis-je commander une carte sim en ligne."
+        },
+        {
+          "text": "Comment puis-je faire une nouvelle commande?"
+        },
+        {
+          "text": "Comment puis-je placer une nouvelle commande pour un nouvel appareil en ligne?"
+        },
+        {
+          "text": "J'aimerais acheter un nouveau téléphone."
+        },
+        {
+          "text": "J'aimerais acheter un nouvel appareil et payer en liquide."
+        },
+        {
+          "text": "J'aimerais obtenir un nouveau téléphone, pouvez-vous m'aider à  placer une commande pour cela?"
+        },
+        {
+          "text": "Je souhaite commander un nouveau décodeur numérique."
+        },
+        {
+          "text": "Je veux acheter des accessoires."
+        },
+        {
+          "text": "Je veux acheter un nouveau téléphone."
+        },
+        {
+          "text": "Je veux commander une pizza."
+        },
+        {
+          "text": "Je veux placer une commande pour acheter un nouvel appareil."
+        },
+        {
+          "text": "Je voudrais créez une commande de produit."
+        },
+        {
+          "text": "Je voudrais m'inscrire à de nouveaux services et acheter un appareil à l'avance."
+        },
+        {
+          "text": "Je voudrais passer une commande pour un nouvel appareil s'il vous plaît."
+        },
+        {
+          "text": "Pouvez-vous transférer cet appel à quelqu'un à qui je peux commander un nouvel appareil?"
+        },
+        {
+          "text": "Quelle est la procédure pour commander un nouveau téléphone ?"
+        },
+        {
+          "text": "Veuillez commander deux billets pour moi, s'il vous plaît."
+        }
+      ],
+      "description": "Commander"
+    },
+    {
+      "intent": "eCommerce_Defer_Payment",
+      "examples": [
+        {
+          "text": "C'est quoi, l'option Payez plus tard ?"
+        },
+        {
+          "text": "Comment puis-je prolonger la date d'échéance de mes paiements?"
+        },
+        {
+          "text": "Comment puis-je reporter le paiement actuel de mon solde?"
+        },
+        {
+          "text": "Est-il possible pour moi de payer ma facture actuelle une semaine plus tard que d'habitude?"
+        },
+        {
+          "text": "Existe-t-il une possibilité de payer deux semaines après la date d'échéance de ma prochaine facture sans subir les surtaxes?"
+        },
+        {
+          "text": "Il y a eu une confusion avec mon compte bancaire, puis-je payer ma facture actuelle une semaine plus tard après qu'elle est dûe?"
+        },
+        {
+          "text": "J'ai besoin de retarder un paiment."
+        },
+        {
+          "text": "Je ne serai pas payé la semaine prochaine mais ma facture est payable aujourd'hui, puis-je payer la semaine prochaine?"
+        },
+        {
+          "text": "Je rencontre des problèmes de trésorerie en ce moment; je ne peux pas honorer le paiement de vos factures dans les délais. Quelles sont les solutions ?"
+        },
+        {
+          "text": "Je serai payé en retard ce mois. Puis-je retarder ma date d'échéance d'une semaine pour ce paiement?"
+        },
+        {
+          "text": "Je souhaite retarder la date à laquelle je suis censé payer."
+        },
+        {
+          "text": "Je suis incapable de payer ma facture à temps. Puis-je faire le paiement après la date d'échéance de ma prochaine facture?"
+        },
+        {
+          "text": "Je veux payer ma facture après la date d'échéance. Puis-je obtenir un délai supplémentaire?"
+        },
+        {
+          "text": "Je veux reporter mon paiement, s'il vous plaît."
+        },
+        {
+          "text": "Je veux retarder la date d'échéance du paiement d'une facture en cours."
+        },
+        {
+          "text": "Je voudrais prolonger les délais de paiement. Est-ce qu' il y a des pénalités dues en cas de retard de paiement ?"
+        },
+        {
+          "text": "Je voudrais vous demander un petit délai supplémentaire et vous informer que j'aurai du retard pour payer."
+        },
+        {
+          "text": "Ma facture actuelle est payable le 25. Je voudrais reporter mon paiement jusqu'au 30. Comment je le change? ."
+        },
+        {
+          "text": "Puis-je faire des arrangements pour reporter mon paiement qui est du ?"
+        },
+        {
+          "text": "Puis-je faire un paiement partiel maintenant et le reste le mois prochain ?"
+        }
+      ],
+      "description": "Retarder la date d'échéance du paiement pour une facture en cours"
+    },
+    {
+      "intent": "eCommerce_Dispute",
+      "examples": [
+        {
+          "text": "Bonjour, je viens de recevoir ma facture mensuelle et il y a quelque chose que je ne comprends pas, aidez-moi s'il vous plaît."
+        },
+        {
+          "text": "Bonjour je vois une charge mensuelle récurrente dans ma facture. Pourriez-vous me donner plus de détails, s'il vous plaît, si je vous dit combien il est?"
+        },
+        {
+          "text": "Chaque mois j'ai été facturé deux montants distincts pour l'usage des données. Pourriez-vous expliquer pourquoi ce n'est pas un frais unique ?"
+        },
+        {
+          "text": "Est-il possible de me donner une explication détaillée sur les charges imposées sur ma prime d'assurance?"
+        },
+        {
+          "text": "Il y a un frais unique dans ma facture, frais d'activation, mais je n'ai activé aucun nouveau service récemment."
+        },
+        {
+          "text": "J'ai besoin de quelqu'un pour regarder ma facture. Je ne suis pas content avec le service, en particulier les appels coupés et ma facture devrait être ajustée."
+        },
+        {
+          "text": "J'ai été facturé une pénalité pour un paiement tardif sur mon relevé en juillet. J'ai été une semaine en retard mais j'ai appelé et demandé pour une prolongation, ce qui, on m'avez dit ne conduirait pas à une pénalité de retard. Veuillez le vérifier et fixer."
+        },
+        {
+          "text": "J'ai reçu ma facture, mais il y a une erreur à ce sujet et je dois demander un remboursement"
+        },
+        {
+          "text": "Je ne suis pas du tout satisfait avec votre vitesse des données et je ne pense pas que je reçois le service que vaut mon argent. J'aimerais un compensation."
+        },
+        {
+          "text": "Je reçois des vitesses médiocres de téléchargement de données. Pouvez-vous ajuster ma facture pour imdemniser le service insatisfaisant?"
+        },
+        {
+          "text": "Je regarde ma facture actuelle. Il y a das frais qui sont incorrects. J'ai besoin de votre aide à les corriger, s'il vous plaît."
+        },
+        {
+          "text": "J'étais sans données à grande vitesse pendant deux semaines. Je veux que vous ajustiez mes frais mensuels pour les données en raison de cela."
+        },
+        {
+          "text": "Je vois ce frais dans ma facture chaque mois et ne comprends pas de quoi il s'agit. Pouvez-vous m'expliquer tous les frais dans ma facture?"
+        },
+        {
+          "text": "Je voudrais demander un ajustement pour mon plan de données, la vitesse a été très lente le mois entier."
+        },
+        {
+          "text": "Je voudrais demander un ajustement pour obtenir une remise sur ma facture, car il y a eu une panne de plusieurs jours où la fonction d'appel ne fonctionnait pas."
+        },
+        {
+          "text": "La facture du mois dernier contenait des numéros que je ne connaissais pas et que je n'ai pas appelés. Qui puis-je contacter pour en savoir plus sur ces appels?"
+        },
+        {
+          "text": "La facture du mois dernier ne montre pas le montant du plan auquel j'ai adhéré. Veuillez le corriger."
+        },
+        {
+          "text": "Ma femme a rencontré beaucoup de problème lors de son séjour dans votre hôtel. Puisqu'elle n'est pas contente avec votre service, donnez-lui une réduction lors de sa prochaine visite."
+        },
+        {
+          "text": "Sur ma facture je vois des appels au Mexique. Je n'ai jamais appelé ces numéros. Veuillez corriger ma facture et me tenir informé."
+        },
+        {
+          "text": "Sur mon dernier relevé de facturation, j'ai trouvé des frais d'itinérance parmi d'autres, mais je ne suis pas sorti depuis longtemps. Comment est-ce arrivé?"
+        }
+      ],
+      "description": "Contester un problème à propos d'une facture"
+    },
+    {
+      "intent": "eCommerce_Make_A_Payment",
+      "examples": [
+        {
+          "text": "Comment puis-je faire un paiement sans une carte de crédit valide?"
+        },
+        {
+          "text": "Comment puis-je payer ma facture par téléphone?"
+        },
+        {
+          "text": "Effectuez un paiement maintenant, s'il vous plaît."
+        },
+        {
+          "text": "J'ai besoin d'aide à payer ma facture avec une carte de crédit."
+        },
+        {
+          "text": "J'aimerais effectuer un paiement sur mon compte. Je dois utiliser une nouvelle carte de crédit. Pouvez-vous m'aider s'il vous plaît ?"
+        },
+        {
+          "text": "J'aimerais payer ma facture. Quelles informations avez-vous besoin pour rechercher mon compte?"
+        },
+        {
+          "text": "Je dois effectuer le paiement de mes factures."
+        },
+        {
+          "text": "Je dois effectuer un paiement, pouvez-vous me donner des instructions sur la façon de le faire?"
+        },
+        {
+          "text": "Je dois faire un paiement maintenant, où puis-je le faire?"
+        },
+        {
+          "text": "Je dois payer ma facture. Pouvez-vous me donner un compte auquel je dois transférer l'argent?"
+        },
+        {
+          "text": "Je dois soumettre un paiement rapidement. Pouvez-vous vous aider?"
+        },
+        {
+          "text": "Je souhaite payer ma facture maintenant au lieu d'attendre que le paiement planifié soit affiché."
+        },
+        {
+          "text": "Je veux payer ma facture. Comment je fais mon paiement?"
+        },
+        {
+          "text": "Je voudrais payer dès que possible."
+        },
+        {
+          "text": "Je voudrais payer ma facture en ligne, où dois-je commencer?"
+        },
+        {
+          "text": "Je voudrais payer ma facture en utilisant ma carte de débit aujourd'hui. Pouvez-vous m'aider à  faire mon paiement?"
+        },
+        {
+          "text": "Permettez-moi de faire un paiement de ma facture plus tard."
+        },
+        {
+          "text": "Puis-je effectuer un paiement à tout moment?"
+        },
+        {
+          "text": "Puis-je payer ma facture pour le dernier loyer?"
+        },
+        {
+          "text": "Puisque je ne peux pas effectuer un paiement le ligne je veux qu'il soit fait maintenant sur téléphone."
+        }
+      ],
+      "description": "Effectuer un paiement"
+    },
+    {
+      "intent": "eCommerce_Method_Of_Payment",
+      "examples": [
+        {
+          "text": "Acceptez-vous les cartes de voyage internationales pour vous payer ?"
+        },
+        {
+          "text": "Actuellement, mon compte est lié à mon compte bancaire. Puis-je actualiser mon moyen de paiement et lier mon compte à une carte de crédit au lieu de mon compte bancaire?"
+        },
+        {
+          "text": "Bonjour, combien de moyens de paiement y a-t-il? Et quel est le meilleur?"
+        },
+        {
+          "text": "Bonjour, j'ai un nouveau numéro de carte de débit, je souhaiterai actualiser mes informations de paiement."
+        },
+        {
+          "text": "Bonjour. Je voulais savoir s'il y a des récompenses si mon moyen de paiement est une carte de crédit?"
+        },
+        {
+          "text": "Bonjour, pouvez-vous me dire si c'est possible d'avoir plusieurs moyens de paiement pour une transaction?"
+        },
+        {
+          "text": "Bonjour, pouvez-vous me fournir une liste des options de paiement que vous acceptez?"
+        },
+        {
+          "text": "Comment puis-je modifier ma méthode de paiement à partir de mon téléphone?"
+        },
+        {
+          "text": "Comment puis je modifier mes donnees de ma carte de crédit?"
+        },
+        {
+          "text": "J'aimerais changer les cartes de crédit pour le paiement de ma facture. Pouvez-vous m'aider à le faire par téléphone?"
+        },
+        {
+          "text": "Je dois actualiser mon moyen de paiement automatisé de la banque en ligne à la carte de crédit ou carte de débit, comment puis-je le changer?"
+        },
+        {
+          "text": "Je ne veux pas fournir un numéro de carte de crédit pour payer, puis-je simplement envoyer une chèque chaque mois?"
+        },
+        {
+          "text": "Je ne veux plus payer ma facture en personne. Est-il possible de payer en ligne?"
+        },
+        {
+          "text": "Je paie mes factures en utilisant mon ancienne carte de débit. Elle va expirer dans un mois, alors comment puis-je modifier les informations de paiement?"
+        },
+        {
+          "text": "Je sais que vous acceptez les paiements par carte de crédit mais j'ai reçu une carte de crédit prépayée et j'aimerais savoir si je peux l'utiliser."
+        },
+        {
+          "text": "Jusqu'à maintenant, je payais en espèces. Puis-je payer les paiements à venir par la carte de crédit?"
+        },
+        {
+          "text": "Puis-je utiliser une carte de crédit comme méthode de paiement?"
+        },
+        {
+          "text": "Quelles sont les autres façons d'effectuer un paiement à part la carte de crédit?"
+        },
+        {
+          "text": "Quelles sont les options de paiement, est-il possible de payer par carte de crédit?"
+        },
+        {
+          "text": "Serait-il possible d'ajouter une nouvelle carte de crédit comme un méthode de paiement?"
+        }
+      ],
+      "description": "Gérer la méthode de paiement pour une facture"
+    },
+    {
+      "intent": "eCommerce_Modify_Product_Order",
+      "examples": [
+        {
+          "text": "Bonjour, j'ai récemment passé une commande et j'aimerais faire une modification, est-ce possible ?"
+        },
+        {
+          "text": "Bonjour, j'ai récemment passé une commande pour un accessoire et j'ai besoin de modifier l'adresse d'expédition. Pouvez-vous m'aider à faire cela sans annuler la commande?"
+        },
+        {
+          "text": "Bonjour, je voudrais changer la date de livraison de ma commande, s'il vous plaît."
+        },
+        {
+          "text": "Comment modifier ma commande ?"
+        },
+        {
+          "text": "Comment puis-je modifier une commande que j'ai déjà placée sans l'annuler?"
+        },
+        {
+          "text": "Est-ce que vous pouvez modifier la quantité de produits sur une commande ?"
+        },
+        {
+          "text": "J'ai commandé certains articles pour mon téléphone hier. Pourriez-vous m'aider à apporter un changement à cette commande?"
+        },
+        {
+          "text": "J'ai commandé un nouveau téléphone aujourd'hui mais oublié d'ajouter un chargeur supplémentaire. Pouvez-vous l'ajouter à ma commande originelle ?"
+        },
+        {
+          "text": "J'ai commandé un nouveau téléphone avec 16Go de stockage, puis-je changer cela à 32Go?"
+        },
+        {
+          "text": "J'ai commandé un nouveau téléphone la semaine dernière, mais j'ai changé mon avis et souhaite un modèle différent - puis-je changer la commande?"
+        },
+        {
+          "text": "J'aimerais changer une commande que je placée hier."
+        },
+        {
+          "text": "Je dois modifier la commande que j'ai passée hier s'il vous plaît."
+        },
+        {
+          "text": "Je souhaite ajouter un produit complémentaire, est-ce encore possible?"
+        },
+        {
+          "text": "Je veux ajouter un produit dans ma commende. Le montant des articles ajoutés excéde le montant initial de ma commande. Comment faire ?"
+        },
+        {
+          "text": "Je veux changer ma commande pour un autre produit."
+        },
+        {
+          "text": "Je voudrais modifier la quantité de minutes que je viens d'acheter."
+        },
+        {
+          "text": "Je voudrais modifier les détails d'une commande que je viens de placer, mais je ne veux pas annuler la commande. Pouvez-vous m'aider avec ça?"
+        },
+        {
+          "text": "Je voudrais modifier les produits supplémentaires dans la commande que je placée sans annuler la commande."
+        },
+        {
+          "text": "Ma commande a été réglée par Carte Bancaire, je peux encore la modifier?"
+        },
+        {
+          "text": "Pourriez-vous m'aider à changer une commande que j'ai faite la semaine dernière?"
+        }
+      ],
+      "description": "Changer ou modifier une commande passée"
+    },
+    {
+      "intent": "eCommerce_Past_Payment_Inquiry",
+      "examples": [
+        {
+          "text": "Ai-je fait des paiements en retard pour mes services téléphoniques ?"
+        },
+        {
+          "text": "Avez-vous reçu mon paiement de la facture la plus récente?"
+        },
+        {
+          "text": "Bonjour, comment puis-je consulter tous mes paiements précédents, s'il vous plaît ?"
+        },
+        {
+          "text": "Bonjour, pouvez-vous jeter un coup d'oeil sur mon histoire de facturation et me dire combien de paiements ont été effectués en ligne?"
+        },
+        {
+          "text": "Bonjour, puis-je obtenir un historique de mes paiements pour la dernière année s'il vous plaît ?"
+        },
+        {
+          "text": "Comment puis-je avoir une copie du paiement que j'ai effectué le mois dernier ?"
+        },
+        {
+          "text": "Est-ce que le paiement que j'ai effectué la semaine dernière a été effectif ?"
+        },
+        {
+          "text": "Hier, j'ai fait un paiement mais je n'ai pas eu de confirmation, pouvez-vous vérifier que vous avez bien réçu ce paiement?"
+        },
+        {
+          "text": "J'ai fait un paiement en ligne il y a trois jours. Pouvez-vous me dire si le paiement a été traité et crédité sur le compte ?"
+        },
+        {
+          "text": "J'ai payé ma facture pour le mois dernier à l'heure mais elle ne s'affiche pas comme payée dans ma facture actuelle, pourquoi ?"
+        },
+        {
+          "text": "J'ai payé pour le mois de juin, pouvez-vous confirmer que le paiement a été fait?"
+        },
+        {
+          "text": "J'ai un problème avec mon entreprise de carte de crédit. Ils m'ont facturé deux fois, mais je ne crois pas que les deux paiements étaient débités- pouvez-vous vérifier?"
+        },
+        {
+          "text": "J'aurais du recevoir des paiements sur mon compte. Pourquoi ils ne sont pas crédités dans mon compte?"
+        },
+        {
+          "text": "Je voudrais me renseigner sur certains paiements que j'ai effectués il y a quelques années."
+        },
+        {
+          "text": "Je voudrais savoir quand mon dernier paiement a été effectué."
+        },
+        {
+          "text": "Mon dernier paiement ne s'affiche pas sur mon compte. Pouvez-vous vérifier s'il a été bien effectif ?"
+        },
+        {
+          "text": "Pourquoi mon relevé montre que mon paiement n'était pas fait ?"
+        },
+        {
+          "text": "Pourquoi y a-t-il un paiement manquant, alors que je suis sûr que je l'ai effectué?"
+        },
+        {
+          "text": "Pourriez-vous me dire combien j'ai été facturé pour l'utilisation de mes services en mars de cette année?"
+        },
+        {
+          "text": "Veuillez m'envoyer un courrier électronique avec l'historique de mes transactions, s'il vous plaît."
+        }
+      ],
+      "description": "Renseignez-vous sur les paiements effectués dans le passé"
+    },
+    {
+      "intent": "eCommerce_Payment_Due_Date",
+      "examples": [
+        {
+          "text": "À quelle date est-ce que mon paiement est payable?"
+        },
+        {
+          "text": "Comment est-ce que je vois le numéro de référence du paiement de consommation et l'échéance de ma facture?"
+        },
+        {
+          "text": "Excusez-moi, quelle est votre date d'échéance de paiement?"
+        },
+        {
+          "text": "J'ai des questions sur l'échéance du prochain paiement."
+        },
+        {
+          "text": "J'aimerais connaître la date d'échéance de mon paiement."
+        },
+        {
+          "text": "Je me demandais quelle était la date d'échéance pour ma facture."
+        },
+        {
+          "text": "Je ne peux pas payer ma facture parce que je n'ai pas reçu ma nouvelle carte de débit, je peux rapporter ma date d'échéance? J'ai totalement oublié la carte."
+        },
+        {
+          "text": "Je veux que ma facturation d'Internet soit en phase avec la date limite de mon mobile. Je suis facturé des pénalité de retard tous les mois. Est-ce que c'est possible?"
+        },
+        {
+          "text": "Je voudrais connaître la date exacte où ma facture est dûe. S'il vous plaît faites-moi savoir."
+        },
+        {
+          "text": "Mes paiements sont dûs le 1er de chaque mois. Si le 1 juillet est un jour férié pouvez-vous me dire quelle est la date d'échéance pour moi?"
+        },
+        {
+          "text": "Pourriez-vous me dire quel est le dernier jour de paiement de mes factures ?"
+        },
+        {
+          "text": "Puis-je vérifier si la date d'échéance est associé à un paiement?"
+        },
+        {
+          "text": "Quand est-ce que le paiement de ma facture actuelle est payable?"
+        },
+        {
+          "text": "Quand est-ce que mon prochain cycle de facturation doit être payé?"
+        },
+        {
+          "text": "Quand est le dernier jour pour payer ma facture sans avoir les arriérés?"
+        },
+        {
+          "text": "Quel jour du mois est la date d'échéance de ma facture?"
+        },
+        {
+          "text": "Quel jour puis-je recevoir ma facture et quand est-elle due?"
+        },
+        {
+          "text": "Quelle est la date d'échéance de paiement de mon forfait, s'il vous plaît?"
+        },
+        {
+          "text": "Quelle est la date d'échéance de paiement pour ma dernière facture?"
+        },
+        {
+          "text": "Quelle est la dernière date de soumission de ma prime d'assurance?"
+        }
+      ],
+      "description": "Renseignez-vous sur le moment où le prochain paiement est dû"
+    },
+    {
+      "intent": "eCommerce_Product_Order_Status",
+      "examples": [
+        {
+          "text": "Bonjour j'ai acheté un nouveau produit sur votre site et ai choisi de le récupérer de mon magasin local. J'ai reçu une confirmation par mél qui dit que je recevrai encore un autre mail, mais je ne l'ai jamais reçu. Comment puis-je savoir si mon téléphone est prêt au magasin ?"
+        },
+        {
+          "text": "Bonjour, j'ai commandé un nouvel appareil sur votre site il y a deux semaines. Je me demandais si vous pouviez regarder où se trouve le produit actuellement."
+        },
+        {
+          "text": "Bonjour, j'aimerais connaître le statut d'une commande que j'avais effectuée."
+        },
+        {
+          "text": "Bonjour, je souhaterais vérifier le statut d'une commande que j'ai passé."
+        },
+        {
+          "text": "Ça fait longtemps que j'ai placé une commande chez vous, mais jusqu'à présent je n'ai reçu ni le produit, ni la notification concernant son statut. J'ai besoin d'aide."
+        },
+        {
+          "text": "En ce qui concerne la commande que j'avais faite , y a-t-il une actualisation de la situation?"
+        },
+        {
+          "text": "J'ai commandé mon nouvel appareil il y a 4 semaines et on m'avait dit qu'il ne prendra pas plus de deux semaines pour arriver. Quel est le statut de la commande ?"
+        },
+        {
+          "text": "J'ai commandé un nouveau chargeur de téléphone il y a 3 jours. Pouvez-vous me dire l'état de cette commande?"
+        },
+        {
+          "text": "J'ai commandé un nouveau téléphone la semaine dernière. Où puis-je suivre ma commande ?"
+        },
+        {
+          "text": "J'ai reçu un texto qui disait que la livraison sera effectué entre 9 heures et midi et j'attend toujours."
+        },
+        {
+          "text": "J'ai saisi mon numéro de commande et mon adresse e-mail sur la page 'Suivi de commande' mais je ne trouve pas ma commande. Que faire ?"
+        },
+        {
+          "text": "Je veux connaître le statut actuel d'une commande que j'ai placée hier sur votre site Web."
+        },
+        {
+          "text": "Je veux un rapport sur l'état ma commande que j'ai palcée la semaine dernière."
+        },
+        {
+          "text": "Le lien inclus dans mon e-mail de confirmation d'expédition ne fonctionne pas. Comment faire pour vérifier le statut de ma commande ?"
+        },
+        {
+          "text": "Où pourrais-je suivre ma commande sur mon compte ?"
+        },
+        {
+          "text": "Pouvez-vous retracer ma commande pour moi?"
+        },
+        {
+          "text": "Pouvez-vous retracer mon expédition?"
+        },
+        {
+          "text": "Quand puis-je prévoir la nouvelle expédition du produit et comment cela se passe pour ceux qui l'ont précommandés la semaine dernière?"
+        },
+        {
+          "text": "Que se passe-t-il avec la commande que j'ai placée le 30 juin?"
+        },
+        {
+          "text": "Vérifiez l'état de ma commande s'il vous plaît."
+        }
+      ],
+      "description": "Demander le statut d'une commande qui a été passée"
+    },
+    {
+      "intent": "eCommerce_Recurring_Payment_Autopay",
+      "examples": [
+        {
+          "text": "Bonjour, je voudrais que vous annuliez tous les paiements mensuels automatiques."
+        },
+        {
+          "text": "Comment configurer les paiements récurrents automatiques ?"
+        },
+        {
+          "text": "Comment puis-je arrêter le paiement automatique ?"
+        },
+        {
+          "text": "Comment puis-je changer mon paiement récurrent ?"
+        },
+        {
+          "text": "Comment puis-je m'inscrire à la facturation automatique ?"
+        },
+        {
+          "text": "Comment puis-je m'inscrire aux Auto-paiements ?"
+        },
+        {
+          "text": "Est-ce que je reçois une réduction si j'active le paiement mensuel automatique ?"
+        },
+        {
+          "text": "J'aimerais mettre en place des paiements mensuels pour mon compte. Je voudrais utiliser mon compte courant. Vous pouvez le faire pour moi ?"
+        },
+        {
+          "text": "Je souhaiterais annuler le paiement automatique de ma facture."
+        },
+        {
+          "text": "Je souhaiterais annuler les paiements automatisés par carte de crédit à mon compte et mettre en place les paiements manuels. S'il vous plaît, apportez cette modification immédiatement."
+        },
+        {
+          "text": "Je veux changer d'un paiement automatique à un paiement manuel de mes soldes dorénavant."
+        },
+        {
+          "text": "Je veux faire un paiement automatique qui passe chaque mois pour mon loyer."
+        },
+        {
+          "text": "Je voudrais mettre en place la facturation mensuelle automatique."
+        },
+        {
+          "text": "Je voudrais modifier le compte duquel mes paiements mensuels automatiques sont tirées."
+        },
+        {
+          "text": "Pouvez-vous faire une configuration de sorte que les paiements mensuels automatiques pour mon compte soient déduits directement de ma carte de crédit ?"
+        },
+        {
+          "text": "Puis-je configurer un paiement automatique pour mes factures ?"
+        },
+        {
+          "text": "Puis-je mettre à jour la carte de crédit que j'utilise pour faire mes paiements mensuels automatiques ?"
+        },
+        {
+          "text": "Puis-je mettre en place les paiements mensuels automatiques de mon compte bancaire ?"
+        },
+        {
+          "text": "Puis-je modifier ma méthode de paiement automatique ?"
+        }
+      ],
+      "description": "Commencer à effectuer des paiements récurrents automatiques"
+    },
+    {
+      "intent": "eCommerce_Refund_Payment",
+      "examples": [
+        {
+          "text": "Bonjour, à qui dois-je m'adresser pour obtenir un remboursement sur un des mes paiements ?"
+        },
+        {
+          "text": "Bonjour, comment puis-je demander un remboursement de certains de mes paiements?"
+        },
+        {
+          "text": "Bonjour, comment puis-je obtenir un remboursement des frais du roaming qui sont apparus dans le relevé de juin ?"
+        },
+        {
+          "text": "Bonjour, j'ai annulé mon service il y a quelque temps, mais j'ai quand même reçu une facture ce mois, pouvez-vous rembourser le paiement ?"
+        },
+        {
+          "text": "Comment puis-je obtenir un remboursement sur les services que je n'ai pas commandés?"
+        },
+        {
+          "text": "Est-il possible de recevoir un remboursement d'un paiement effectué par erreur ?"
+        },
+        {
+          "text": "Il me semble que ma carte de crédit a été surfacturé pour mon paiement mensuel. J'aimerais obtenir un remboursement pour le montant surfacturé."
+        },
+        {
+          "text": "J'ai accidentellement surpayé ma dernière facture. Pouvez-vous me rembourser?"
+        },
+        {
+          "text": "J'aimerais un remboursement partiel de mon paiement récent puisque la qualité de l'appel a été très médiocre."
+        },
+        {
+          "text": "Je souhaite me faire rembourser un paiement, comment faire ?"
+        },
+        {
+          "text": "Je voudrais un remboursement sur le surpaiement que j'ai fait la semaine dernière s'il vous plaît."
+        },
+        {
+          "text": "Ma carte de crédit a été débitée deux fois pour ma dernière facture. Comment puis-je me faire rembourser le frais supplémentaire?"
+        },
+        {
+          "text": "Mon service a été interrompu le dernier mois et on m'avait dit que je recevrais un remboursement partiel."
+        },
+        {
+          "text": "Où puis-je obtenir un remboursement d'un paiement qui a été fait deux fois?"
+        },
+        {
+          "text": "Pouvez-vous me montrer la démarche à suivre pour avoir un remboursement d'un paiement ?"
+        },
+        {
+          "text": "Puis-je avoir un remboursement intégral?"
+        },
+        {
+          "text": "Quand serai-je remboursé pour mon paiement supplémentaire que j'ai effectué en mai ?"
+        },
+        {
+          "text": "Si j'annule tous mes services aujourd'hui, obtiendrai-je un remboursement pour le reste du mois ?"
+        },
+        {
+          "text": "Suis-je admissible pour le remboursement ?"
+        },
+        {
+          "text": "Suis-je éligible pour un remboursement si j'ai reçu un mauvais service pendant la plupart du temps ce mois ?"
+        }
+      ],
+      "description": "Demander un remboursement pour un paiement"
+    },
+    {
+      "intent": "eCommerce_Statements",
+      "examples": [
+        {
+          "text": "Bonjour, j'ai du mal à comprendre la facture que j'ai reçue aujourd'hui. Pouvez-vous revenir sur elle avec moi?"
+        },
+        {
+          "text": "Bonjour, je n'ai pas reçu ma facture de mois dernier. Pouvez-vous m'arranger pour recevoir une copie par courrier électronique? Je vous remercie."
+        },
+        {
+          "text": "Bonjour. Je souhaiterais annuler l'envoi des relevés en papier et commencer à utiliser la facturation en ligne, aidez-moi s'il vous plaît."
+        },
+        {
+          "text": "Bonjour, je voudrais demander comment obtenir une copie d'une facture actuelle ou d'une facture ancienne?"
+        },
+        {
+          "text": "Bonjour, pouvez-vous me fournir une copie supplémentaire d'une facture qui m'a été envoyée il y a environ 3 mois? Y a-t-il une charge pour la copie supplémentaire?"
+        },
+        {
+          "text": "Bonjour, si je passe aux relevés en ligne, est-ce que les relevés en papier sont postés de toute façon?"
+        },
+        {
+          "text": "Comme je l'ai dit avant, en discutant avec votre collègue, je demande d'envoyer à mon courriel mes factures, c'est possible ?"
+        },
+        {
+          "text": "Dois-je vous donner le numéro de facture pour obtenir son réimpression ?"
+        },
+        {
+          "text": "Est-ce que j'ai des réductions si je ne reçois plus des relevés en papier?"
+        },
+        {
+          "text": "J'ai besoin d'une copie de la facture de mars pour mon compte. Pouvez-vous m'envoyer un courrier s'il vous plaît?"
+        },
+        {
+          "text": "J'ai des questions sur la version papier de mes factures."
+        },
+        {
+          "text": "J'ai perdu mon rélévé précédent. Pouvez-vous m'envoyer une copie s'il vous plaît?"
+        },
+        {
+          "text": "J'aurais besoin d'une copie de mon dernier rélévé de compte et je serais reconnaissant de votre aide pour l'obtenir."
+        },
+        {
+          "text": "Je souhaite obtenir la copie d'une facture pour la période de facturaction actuelle et précédente."
+        },
+        {
+          "text": "Ma maison a été incendiée et j'ai perdu toutes mes factures. Vous pouvez m'envoyer les factures du cycle de facturation actuel?"
+        },
+        {
+          "text": "Mon relevé bancaire montre un paiement inattendu,  je souhaite donc une copie de mon dernier relevé de facturation."
+        },
+        {
+          "text": "Où dois-je aller pour accéder aux informations de ma facture sur le web?"
+        },
+        {
+          "text": "Puis-je obtenir une copie en papier de mon historique de transaction de ma carte de crédit?"
+        },
+        {
+          "text": "Serais-je facturé pour une copie supplémentaire de la facture du mois dernier, et combien elle coûtera?"
+        },
+        {
+          "text": "Serait-il possible d'avoir une copie de ma facture actuelle envoyée sous forme papier par courrier?"
+        }
+      ],
+      "description": "Demander un relevé de facturation"
+    },
+    {
+      "intent": "General_About_You",
+      "examples": [
+        {
+          "text": "Abus de chatbot, est-ce possible ?"
+        },
+        {
+          "text": "Avez-vous un nom de famille?"
+        },
+        {
+          "text": "Avez vous un ou des surnoms?"
+        },
+        {
+          "text": "Depuis combien de temps effectuez-vous cette fonction?"
+        },
+        {
+          "text": "Écris-tu le portugais ?"
+        },
+        {
+          "text": "Est-ce que l'agent virtuel est toujours disponible ?"
+        },
+        {
+          "text": "Es-tu intelligent ?"
+        },
+        {
+          "text": "Etes-vous adaptés pour le service et la relation client ?"
+        },
+        {
+          "text": "Êtes-vous un homme ou une femme ou un robot?"
+        },
+        {
+          "text": "Les chatbots, que sont-ils exactement capables de faire ?"
+        },
+        {
+          "text": "Pouvez-vous m'en dire plus sur vous?"
+        },
+        {
+          "text": "Pouvez-vous me permettre de réserver ou commander des billets ?"
+        },
+        {
+          "text": "Pouvez-vous offrir un support aux utilisateurs internes?"
+        },
+        {
+          "text": "Présentez-vous !"
+        },
+        {
+          "text": "Puis-je demander des conseils dans des questions juridiques ?"
+        },
+        {
+          "text": "Quelle est la technologie utilisée par les agents virtuels ?"
+        },
+        {
+          "text": "Quels sont vos centres d'intérêt ?"
+        },
+        {
+          "text": "Qu'est-ce que tu n'aimes pas?"
+        },
+        {
+          "text": "Salut, parles-tu l'espagnol ?"
+        }
+      ],
+      "description": "Demander des attributs génériques personnels"
+    },
+    {
+      "intent": "General_Agent_Capabilities",
+      "examples": [
+        {
+          "text": "Ai-je besoin de l'espace de travail du service de conversation pour ajouter une fonctionnalité personnalisée?"
+        },
+        {
+          "text": "Avez-vous des capacités d'apprentissage ?"
+        },
+        {
+          "text": "Avez-vous des limites ?"
+        },
+        {
+          "text": "Bonjour, pouvez-vous énumérer les domaines dans lequels vous pouvez fournir de l'aide?"
+        },
+        {
+          "text": "Bonjour. Quelle sorte de choses pouvez-vous faire pour moi?"
+        },
+        {
+          "text": "Comment puis-je configurer mes préférences dans l'Agent Virtuel?"
+        },
+        {
+          "text": "Dans quelles autres questions pouvez-vous m'aider?"
+        },
+        {
+          "text": "J'ai besoin de votre aide pour la création de l'agent virtuel."
+        },
+        {
+          "text": "Pourquoi est-ce qu'il n'y a pas d'option de fermer la session dans 'Agent Virtuel'?"
+        },
+        {
+          "text": "Pouvez-vous lister les possibilités de la rubrique d'aide?"
+        },
+        {
+          "text": "Puis-je avoir une liste de sujets disponibles auxquels vous pouvez m'aider?"
+        },
+        {
+          "text": "Puis-je récupérer les interactions dans un agent virtuel ?"
+        },
+        {
+          "text": "Puis-je relier mon espace de travail avec un agent virtuel?"
+        },
+        {
+          "text": "Puis-je utiliser la fenêtre de prévisualisation pour tester le déroulement de ma conversation ?"
+        },
+        {
+          "text": "Puis-je voir 4 questions les plus fréquentes?"
+        },
+        {
+          "text": "Quelles sont les options avec lesquelles vous pouvez m'aider?"
+        },
+        {
+          "text": "Quels sont les options que je peux avoir de plus en utlisant un agent virtuel ?"
+        },
+        {
+          "text": "Qu'est-ce que l'option Désactiver tout ?"
+        },
+        {
+          "text": "Savez-vous faire la traduction ?"
+        },
+        {
+          "text": "Y a-t-il d'autre domaines avec lesquels aide l'Agent Virtuel?"
+        }
+      ],
+      "description": "Demander des capacités du bot"
+    },
+    {
+      "intent": "General_Connect_to_Agent",
+      "examples": [
+        {
+          "text": "Bonjour pourriez-vous me mettre en relation avec un agent en ligne?"
+        },
+        {
+          "text": "Bon, maintenant je veux parler à un agent à propos de certains frais."
+        },
+        {
+          "text": "Existe-t-il un numéro de service client qui je peux utiliser et parler à  un agent directement ?"
+        },
+        {
+          "text": "Existe-t-il un numéro que je peux composer pour parler à opérateur en direct ?"
+        },
+        {
+          "text": "J'aimerais parler à un agent humain, s'il vous plaît."
+        },
+        {
+          "text": "Je dois parler à une personne réelle plutôt qu'un système de réponse automatisé, s'il vous plaît."
+        },
+        {
+          "text": "Je pense qu'il faut me connecter avec un opérateur."
+        },
+        {
+          "text": "Je souhaite etre mis en relation avec un agent."
+        },
+        {
+          "text": "Je souhaite parler à un agent humain du service client."
+        },
+        {
+          "text": "Je veux parler au directeur ! Votre agent était inutile !"
+        },
+        {
+          "text": "Je veux parler avec un représentant, s'il vous plaît."
+        },
+        {
+          "text": "Je voudrais parler avec un agent en direct, s'il vous plaît."
+        },
+        {
+          "text": "Laissez-moi parler à votre patron maintenant !"
+        },
+        {
+          "text": "Personne ne répond au téléphone !"
+        },
+        {
+          "text": "Pouvez-vous me mettre en contact avec un agent, s'il vous plaît ? Ma conversation a été coupée."
+        },
+        {
+          "text": "Pouvez-vous, s'il vous plaît, diriger mon appel vers un agent humain? Je voudrais parler directement avec un être humain."
+        },
+        {
+          "text": "Puis-je parler à un agent à propos de mon compte ?"
+        },
+        {
+          "text": "Puis-je parler à un représentant du service humain maintenant ?"
+        },
+        {
+          "text": "Veuillez me connecter à un gestionnaire."
+        },
+        {
+          "text": "Y a-t-il un numéro que je peux composer et rejoindre une personne réelle qui peut m'aider?"
+        }
+      ],
+      "description": "Demander un agent humain"
+    },
+    {
+      "intent": "General_Ending",
+      "examples": [
+        {
+          "text": "C'est tout, merci."
+        },
+        {
+          "text": "C'était sympa de bavarder avec toi!"
+        },
+        {
+          "text": "C'était un plaisir de chatter avec vous !"
+        },
+        {
+          "text": "D'accord merci. Au revoir!"
+        },
+        {
+          "text": "Donc, je vous remercie beaucoup de votre aide. Je vous souhaite une bonne journée !"
+        },
+        {
+          "text": "J'ai besoin d'une pause, au revoir !"
+        },
+        {
+          "text": "Je dois partir maintenant."
+        },
+        {
+          "text": "Je m'en vais maintenant."
+        },
+        {
+          "text": "Je n'ai plus de questions."
+        },
+        {
+          "text": "Je pars maintenant, à plus !"
+        },
+        {
+          "text": "Je rediscuterai avec vous plus tard."
+        },
+        {
+          "text": "Je vais te parler plus tard !"
+        },
+        {
+          "text": "Je vais vous reparler bientôt."
+        },
+        {
+          "text": "Je voudrais arrêter là."
+        },
+        {
+          "text": "Merci beaucoup, on se reparle plus tard."
+        },
+        {
+          "text": "Nous allos rediscuter bientôt."
+        },
+        {
+          "text": "Ok, c'est tout ce dont j'ai besoin pour l'instant."
+        },
+        {
+          "text": "OK, merci. Au revoir !"
+        },
+        {
+          "text": "Passe une bonne journée !"
+        },
+        {
+          "text": "Pouvons-nous arrêter ?"
+        }
+      ],
+      "description": "Terminez la conversation"
+    },
+    {
+      "intent": "General_Greetings",
+      "examples": [
+        {
+          "text": "Allez, commençons !"
+        },
+        {
+          "text": "âllo, âllo !"
+        },
+        {
+          "text": "Bonjour , c'est votre support informatique , qu'est ce que je peux faire pour vous ?"
+        },
+        {
+          "text": "Bonjour, qui êtes-vous?"
+        },
+        {
+          "text": "Bonjour, quoi de neuf ?"
+        },
+        {
+          "text": "Commencez dès le début s'il vous plaît !"
+        },
+        {
+          "text": "Comment ça se passe aujourd'hui ?"
+        },
+        {
+          "text": "Comment ça va ce soir?"
+        },
+        {
+          "text": "Comment se passe votre journée ?"
+        },
+        {
+          "text": "Comment tu te sens?"
+        },
+        {
+          "text": "Comment va tout le monde ?"
+        },
+        {
+          "text": "Est-ce que les gens sont gentils avec vous?"
+        },
+        {
+          "text": "Est-ce que vous passez une bonne journée?"
+        },
+        {
+          "text": "hello"
+        },
+        {
+          "text": "J'aime parler. Toi aussi ?"
+        },
+        {
+          "text": "J'ai pensé que je pourrais juste te dire bonjour !"
+        },
+        {
+          "text": "Je suis heureux de te parler pour la première fois !"
+        },
+        {
+          "text": "Je voudrais commencer."
+        },
+        {
+          "text": "Puis-je te poser des questions?"
+        },
+        {
+          "text": "Salut, le conseiller !"
+        },
+        {
+          "text": "Tu vas bien ?"
+        }
+      ],
+      "description": "Saluez le bot"
+    },
+    {
+      "intent": "General_Negative_Feedback",
+      "examples": [
+        {
+          "text": "Arrête de m'énerver!"
+        },
+        {
+          "text": "Ce n'est pas vrai!"
+        },
+        {
+          "text": "Connard!"
+        },
+        {
+          "text": "Espece de boîte de conserve!"
+        },
+        {
+          "text": "Idiot!"
+        },
+        {
+          "text": "Je te déteste."
+        },
+        {
+          "text": "Je veux parler à une de personne vivante!"
+        },
+        {
+          "text": "Programme stupide !"
+        },
+        {
+          "text": "Putain de robot!"
+        },
+        {
+          "text": "Tais-toi!"
+        },
+        {
+          "text": "T'es bizarre."
+        },
+        {
+          "text": "Tu es bête!"
+        },
+        {
+          "text": "Tu es chiant!"
+        },
+        {
+          "text": "Tu es inutile!"
+        },
+        {
+          "text": "Tu es nul."
+        },
+        {
+          "text": "Tu me fais chier!"
+        },
+        {
+          "text": "Tu m'énerves!"
+        },
+        {
+          "text": "Tu me saoule!"
+        },
+        {
+          "text": "Tu ne sais rien faire!"
+        },
+        {
+          "text": "Va te faire foutre!"
+        }
+      ],
+      "description": "Exprimer des commentaires défavorables"
+    },
+    {
+      "intent": "General_Positive_Feedback",
+      "examples": [
+        {
+          "text": "Je suis vraiment surpris par ton intelligence!"
+        },
+        {
+          "text": "Tu bosses bien!"
+        },
+        {
+          "text": "Tu es adorable!"
+        },
+        {
+          "text": "Tu es bon!"
+        },
+        {
+          "text": "Tu es drôle!"
+        },
+        {
+          "text": "Tu es gentil!"
+        },
+        {
+          "text": "Tu es le meilleur!"
+        },
+        {
+          "text": "Tu es plutôt doué!"
+        },
+        {
+          "text": "Tu es plutôt intelligent!"
+        },
+        {
+          "text": "Tu es si intelligent, c'est incroyable!"
+        },
+        {
+          "text": "Tu es si sage!"
+        },
+        {
+          "text": "Tu es tellement amusant!"
+        },
+        {
+          "text": "Tu es vachement cool!"
+        },
+        {
+          "text": "Tu es vraiment cool!"
+        },
+        {
+          "text": "Tu te débrouilles plutôt bien!"
+        },
+        {
+          "text": "Vous êtes formidable!"
+        },
+        {
+          "text": "Vous êtes formidable! Merci!"
+        },
+        {
+          "text": "Vous êtes génial!"
+        },
+        {
+          "text": "Vous êtes un sympa!"
+        },
+        {
+          "text": "Vous êtes vraiment utile."
+        }
+      ],
+      "description": "Exprimer un sentiment positif ou de la gratitude"
+    },
+    {
+      "intent": "General_Security_Assurance",
+      "examples": [],
+      "description": "Exprimer ses inquiétudes concernant la sécurité du bot"
+    },
+    {
+      "intent": "livraison",
+      "examples": [
+        {
+          "text": "C'est combien la livraison ?"
+        },
+        {
+          "text": "Comment livrez-vous les colis ?"
+        },
+        {
+          "text": "Comment se passe la livraison ?"
+        },
+        {
+          "text": "Dois-je obligatoirement passer par Colissimo ?"
+        },
+        {
+          "text": "Est-ce que je peux récupérer mon colis à un point relais ?"
+        },
+        {
+          "text": "Est-ce que le temps d'attente est long pour une livraison ?"
+        },
+        {
+          "text": "Est-ce que vous livrez à l'étranger ?"
+        },
+        {
+          "text": "Est-ce que vous livrez aux points relais ?"
+        },
+        {
+          "text": "Est-ce que vous livrez par DHL ?"
+        },
+        {
+          "text": "Est-ce que vous livrez partout en Europe ?"
+        },
+        {
+          "text": "Est-ce que vous livrez partout en France ?"
+        },
+        {
+          "text": "Est-ce que vous livrez par UPS ?"
+        },
+        {
+          "text": "Et pour les tarifs ?"
+        },
+        {
+          "text": "La livraison est-elle en cour ?"
+        },
+        {
+          "text": "Livrez-vous en Europe ?"
+        },
+        {
+          "text": "Où est-ce que vous livrez ?"
+        },
+        {
+          "text": "Où est mon colis ?"
+        },
+        {
+          "text": "Quand-est ce que recevrai mon colis ?"
+        },
+        {
+          "text": "Quelle est la durée d'attente moyenne avant de recevoir mon colis ?"
+        },
+        {
+          "text": "Quels sont les tarifs pour une livraisons ?"
+        },
+        {
+          "text": "Qui dois-je contacter en cas de problème de livraison ?"
+        },
+        {
+          "text": "Vous livrez aux points relais ?"
+        },
+        {
+          "text": "Vous livrez par Colissimo ?"
+        },
+        {
+          "text": "Vous livrez par DHL ?"
+        },
+        {
+          "text": "Vous livrez par UPS ?"
+        }
+      ],
+      "description": "This intent is here to explain how our delivery service works "
+    },
+    {
+      "intent": "origine",
+      "examples": [
+        {
+          "text": "Dans quel pays vos œuvres ont -elle été produite ?"
+        },
+        {
+          "text": "D'où viennent les œuvres que vous vendez ?"
+        },
+        {
+          "text": "Il vient d'où le tableau ?"
+        },
+        {
+          "text": "Où est-ce que c'est fait ?"
+        },
+        {
+          "text": "Quel est l'origine de l'oeuvre ?"
+        },
+        {
+          "text": "Qui a peint ce tableau ?"
+        },
+        {
+          "text": "Qui a pris cette photo ?"
+        },
+        {
+          "text": "Qui a pris cette photographie ?"
+        },
+        {
+          "text": "Qui est-ce qui a peint ce tableau ?"
+        },
+        {
+          "text": "Qui est-ce qui a réalisé ce croquis ?"
+        },
+        {
+          "text": "Qui est-ce qui a réalisé cette lithographie ?"
+        },
+        {
+          "text": "Qui fabrique vos œuvres ?"
+        }
+      ],
+      "description": "This intent is used to inform our customers where our products are made "
+    },
+    {
+      "intent": "Prix",
+      "examples": [
+        {
+          "text": "C'est combien ?"
+        },
+        {
+          "text": "C'est combien pour le croquis ?"
+        },
+        {
+          "text": "Combien pour la pour le dessin ?"
+        },
+        {
+          "text": "Combien pour un tableaux ?"
+        },
+        {
+          "text": "Est-ce que les prix sont négociables ?"
+        },
+        {
+          "text": "Est-ce qu'il est cher ?"
+        },
+        {
+          "text": "Quel est le prix ?"
+        },
+        {
+          "text": "Quel est le prix de ce tableau ?"
+        },
+        {
+          "text": "Quel est le prix de cet oeuvre ?"
+        },
+        {
+          "text": "Quel est le prix de cette photo ?"
+        },
+        {
+          "text": "Quel est le prix de la gravure ?"
+        },
+        {
+          "text": "Quel est le prix de la lithographie ?"
+        },
+        {
+          "text": "QuelQ est le prix de cette photographie ?"
+        }
+      ],
+      "description": "This Intent is used to give informations about the price "
+    },
+    {
+      "intent": "problem",
+      "examples": [
+        {
+          "text": "Comment faire quand on a un problème avec une commande ?"
+        },
+        {
+          "text": "J'ai un problème avec la commande que je viens de faire pouvez-vous m'aider ?"
+        },
+        {
+          "text": "Pouvez m'aider j'ai un problème avec l'achat que je viens de faire ?"
+        },
+        {
+          "text": "Pouvez-vous m'aider j'ai un problème avec ma commande ?"
+        },
+        {
+          "text": "Que faire en cas problème avec une commande ?"
+        },
+        {
+          "text": "Qui dois-je contacter en cas de problème avec une commande ?"
+        }
+      ],
+      "description": "Problem with the order "
+    },
+    {
+      "intent": "réduction",
+      "examples": [
+        {
+          "text": "Donnez vous des codes promos ?"
+        },
+        {
+          "text": "Est-ce que les frais de port sont offerts ?"
+        },
+        {
+          "text": "Est-ce que vous faites 10% ?"
+        },
+        {
+          "text": "Est-ce que vous faites des réductions ?"
+        },
+        {
+          "text": "Est-ce qu'il y a des promotions ?"
+        },
+        {
+          "text": "Je peux avoir une réduction ?"
+        },
+        {
+          "text": "Vous faites des soldes ?"
+        }
+      ],
+      "description": "This intent informed custormers on our policies on reductions"
+    }
+  ],
+  "entities": [
+    {
+      "entity": "achat",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "commander",
+          "synonyms": [
+            "acheter ",
+            "acheter un croquis ",
+            "acheter une gravure ",
+            "acheter une photo ",
+            "acheter une photographie ",
+            "acheter un tableau ",
+            "acquérir"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "delivery",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "En Europe",
+          "synonyms": [
+            "A l'étranger ",
+            "A l'intérieur de l'espace Schengen",
+            "Allemagne",
+            "Belgique",
+            "Espace Schengen",
+            "Espagne ",
+            "Europe",
+            "Hors de France ",
+            "Italie ",
+            "Portugal ",
+            "Royaume-Unis ",
+            "Suisse ",
+            "UE",
+            "Union Européenne "
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "France",
+          "synonyms": [
+            "Bordeaux ",
+            "Grenoble",
+            "Lille",
+            "Lyon",
+            "Marseille ",
+            "Nantes",
+            "Paris",
+            "Rennes ",
+            "Toulouse ",
+            "Village",
+            "Ville"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-percentage",
+      "values": [],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    },
+    "from-sample": true
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Bienvenue",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Bonjour, comment puis-je vous aider ?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Bienvenue"
+    },
+    {
+      "type": "standard",
+      "parent": "Bienvenue",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#General_Greetings",
+      "dialog_node": "node_10_1621604947537"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Les prix des tableaux sont indiqués directement lorsque vous cliquez sur l'oeuvre . Ils ne sont pas susceptibles d'être négociés."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Prix",
+      "dialog_node": "node_1_1621607099612",
+      "previous_sibling": "node_1_1621614333067"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Je vous mets dès maintenant en relation avec notre service client. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#General_Connect_to_Agent",
+      "dialog_node": "node_1_1621607803469",
+      "previous_sibling": "node_7_1621609736796"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Aucun problème ! Pouvez m'indiquer l'oeuvre que vous souhaiteriez acheter afin que je puisse vous assister lors de l'achat de cette dernière."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "@achat:commander",
+      "dialog_node": "node_1_1621612177235",
+      "previous_sibling": "node_9_1621606905648"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Je vous mets toute suite en relation avec notre service client."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#problem",
+      "dialog_node": "node_1_1621614333067",
+      "previous_sibling": "node_8_1621611861040"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Toutes nos oeuvre sont disponibles à la livraison partout en Europe."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "@delivery:(En Europe)",
+      "dialog_node": "node_2_1621607378454",
+      "previous_sibling": "node_1_1621612177235"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Vous pouvez retrouver toutes les informations relatives à l'origine de nos œuvres en cliquant directement sur celle-ci. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#origine",
+      "dialog_node": "node_2_1621608550819",
+      "previous_sibling": "node_1_1621607099612"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Expose, est une Marketplace qui donne l'opportunité aux jeunes artistes de vendre leurs premières créations. Vous pouvez trouver sur notre site des tableaux, des photographies ,des croquis, ainsi qu'une multitude d’œuvres d'art uniques."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#concept",
+      "dialog_node": "node_6_1621608844577",
+      "previous_sibling": "node_2_1621608550819"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Voyons calmez-vous ! "
+              },
+              {
+                "text": "Je vous prie de bien vouloir rester poli s'il vous plaît !"
+              },
+              {
+                "text": "Oh ! Mais quel indignité !"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#General_Negative_Feedback",
+      "dialog_node": "node_7_1621609736796",
+      "previous_sibling": "node_8_1621607537266"
+    },
+    {
+      "type": "standard",
+      "parent": "Bienvenue",
+      "dialog_node": "node_8_1621606194650",
+      "previous_sibling": "node_10_1621604947537"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Merci ! Je suis heureux d'avoir pu vous aidez.\n"
+              },
+              {
+                "text": "Ravie d'avoir pu vous aidez ! "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#General_Positive_Feedback",
+      "dialog_node": "node_8_1621607537266",
+      "previous_sibling": "node_8_1621612793365"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": " Je suis un chat bot nommé Fifi, ravi de faire ta connaissance ."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#General_Human_or_Bot",
+      "dialog_node": "node_8_1621608145139",
+      "previous_sibling": "node_1_1621607803469"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "C'est noté ! je vous mets toute suite en contact avec notre service client."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#eCommerce_Cancel_Product_Order",
+      "dialog_node": "node_8_1621611861040",
+      "previous_sibling": "node_2_1621607378454"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "J'espère avoir pu vous être utile ! Je vous souhaite une excellente journée."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#General_Ending",
+      "dialog_node": "node_8_1621612793365",
+      "previous_sibling": "node_9_1621606246531"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Bienvenue chez Expose nous sommes ravis de vous accueillir !"
+              },
+              {
+                "text": "Hello comment puis-je vous aider ? "
+              },
+              {
+                "text": "Salut l'artiste besoin d'aide ? "
+              },
+              {
+                "text": "Soyez le bienvenue chez Expose ! En quoi puis-je vous être utile ?"
+              },
+              {
+                "text": "Bonjour, comment puis-je vous aider ? "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#General_Greetings",
+      "dialog_node": "node_9_1621606246531",
+      "previous_sibling": "Bienvenue"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Toutes nos oeuvre sont disponibles à la livraison partout en France."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "@delivery:France",
+      "dialog_node": "node_9_1621606905648",
+      "previous_sibling": "node_8_1621608145139"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Désolé, mais les oeuvre vendues sur Expose ne font pas l'objet de réduction."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#réduction",
+      "dialog_node": "node_9_1621609228725",
+      "previous_sibling": "node_6_1621608844577"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Pour la France nous vous livrons uniquement avec Colissimo, vous pouvez compter en moyenne 2 à 3 jours d'attentes. En ce qui concerne l'Europe nous faisons uniquement appel à UPS, le délai d'attente varie grandement en fonction du pays où l'oeuvre doit être livrée . L'ensemble des tarifs sont disponibles sur notre site dans l'onglet \"livraison\".  Vous avez la possibilité de vous faire livrer chez vous ou dans un point relais."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#livraison",
+      "dialog_node": "node_9_1621609545277",
+      "previous_sibling": "node_9_1621609228725"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1621604947537",
+      "conditions": "@",
+      "dialog_node": "response_5_1621606043702",
+      "previous_sibling": "response_9_1621605941459"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Bienvenue, chez Expose en quoi puis je t'aider ?"
+              },
+              {
+                "text": "Hello, comment puis-vous aidez ? "
+              },
+              {
+                "text": "Salut qu'est-ce que je peux faire pour toi ?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1621604947537",
+      "conditions": "#General_Greetings",
+      "dialog_node": "response_9_1621605941459"
+    },
+    {
+      "type": "standard",
+      "title": "Tout le reste",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Je n'ai pas compris. Vous pouvez essayer de reformuler."
+              },
+              {
+                "text": "Pouvez-vous dire cela autrement ? Je ne comprends pas."
+              },
+              {
+                "text": "Je n'ai pas compris ce que vous voulez dire."
+              },
+              {
+                "text": "Désolé je ne suis pas en mesure de vous aidez. Vous pouvez contacter directement notre service client afin qu'il puisse vous venir en aide."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Tout le reste",
+      "previous_sibling": "node_9_1621609545277",
+      "disambiguation_opt_out": true
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "disambiguation": {
+      "prompt": "Vouliez-vous dire:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "Aucune de précédent"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Vouliez-vous dire:"
+    }
+  },
+  "learning_opt_out": false,
+  "name": "Fifi",
+  "language": "fr",
+  "description": "Service client"
+}
